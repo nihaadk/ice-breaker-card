@@ -1,0 +1,8 @@
+<div class="card" (click)="flipCard()" [@cardFlip]="activeCard.state">
+    <div class="face">
+        <app-card-back></app-card-back>
+    </div>
+    <div class="face front">
+        <app-card-front [content]="activeCard.question" [category]="activeCard.category"></app-card-front>
+    </div>
+</div>

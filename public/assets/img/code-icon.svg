@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="215px" viewBox="0 0 168 215" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="40" font-weight="normal">
+        <g id="Artboard" transform="translate(-208.000000, -167.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(208.000000, 167.000000)">
+                <text id=";">
+                    <tspan x="50.7402344" y="38">;</tspan>
+                </text>
+                <text id="#">
+                    <tspan x="144.964844" y="76">#</tspan>
+                </text>
+                <text id="#">
+                    <tspan x="145.464844" y="76">#</tspan>
+                </text>
+                <text id="=">
+                    <tspan x="112.339844" y="122">=</tspan>
+                </text>
+                <text id="[">
+                    <tspan x="56.9199219" y="160">[</tspan>
+                </text>
+                <text id="]">
+                    <tspan x="84.9199219" y="168">]</tspan>
+                </text>
+                <text id="&amp;">
+                    <tspan x="0.3046875" y="206">&amp;</tspan>
+                </text>
+                <text id="}">
+                    <tspan x="152.304688" y="206">}</tspan>
+                </text>
+                <text id="&lt;">
+                    <tspan x="0.33984375" y="99">&lt;</tspan>
+                </text>
+                <text id="_">
+                    <tspan x="26" y="91">_</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

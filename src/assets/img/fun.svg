@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="26px" viewBox="0 0 29 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fun</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="fun" transform="translate(15.000000, 13.000000) scale(-1, 1) translate(-15.000000, -13.000000) translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.25">
+            <path d="M1.1,10.6 C7.9,8 27.5,0 27.5,0 L23.6,22.6 C23.4,23.7 22.1,24.1 21.3,23.4 L15.2,18.3 L10.9,22.3 L11.6,15.6 L24.6,3.3 L8.6,13.3 L9.6,19 L6.3,13.7 L1.3,12.1 C0.5,11.8 0.4,10.8 1.1,10.6 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
