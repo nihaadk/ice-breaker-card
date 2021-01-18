@@ -1,5 +1,4 @@
 export enum StateEnum {
 	DEFAULT = 'default',
-	FLIPPED = 'flipped',
-	MATCHED = 'matched'
+	FLIPPED = 'flipped'
 }

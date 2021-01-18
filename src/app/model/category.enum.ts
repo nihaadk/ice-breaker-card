@@ -1,4 +1,6 @@
 export enum CategoryEnum {
-	CREATIVE = 'creative',
-	FUN = 'fun'
+	CREATIVE = 'kreative',
+	FUN = 'fun',
+	BUSINESS = 'business',
+	WORK = 'work'
 }

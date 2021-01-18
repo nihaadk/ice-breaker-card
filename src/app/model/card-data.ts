@@ -6,10 +6,10 @@ export class CardData {
 	category: CategoryEnum;
 	state: StateEnum;
 
-	constructor(_question: string, _category: CategoryEnum, _state: StateEnum) {
+	constructor(_question: string, _category: CategoryEnum) {
 		this.question = _question;
 		this.category = _category;
-		this.state = _state;
+		this.state = StateEnum.DEFAULT;
 	}
 
 	setState(_state: StateEnum) {
