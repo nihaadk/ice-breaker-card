@@ -47,27 +47,41 @@ export class AppComponent {
 			CategoryEnum.BUSINESS
 		),
 
-		new CardData('Wo kannst du am besten arbeiten und warum?', CategoryEnum.CREATIVE),
+		new CardData('Wo kannst du am besten arbeiten und warum?', CategoryEnum.WORK),
 		new CardData(
 			'Was ist der wichtigste Tipp zur Bekämpfung von Ablenkung bei der Arbeit aus der Ferne?',
-			CategoryEnum.CREATIVE
+			CategoryEnum.WORK
 		),
-		new CardData('Wie kannst du dich am besten entspannen?', CategoryEnum.CREATIVE),
+		new CardData('Wie kannst du dich am besten entspannen?', CategoryEnum.WORK),
 		new CardData(
 			'Wenn du frei wählen könntest, wärst du lieber ein/e Frühaufsteherin oder eine Nachteule? Warum?',
-			CategoryEnum.CREATIVE
+			CategoryEnum.WORK
 		),
-		new CardData(
-			'Was ist dein bevorzugtes Tool um effizient, kreativ und inspiriert zu sein?',
-			CategoryEnum.CREATIVE
-		),
-		new CardData('Wie informierst du dich über neue Themen und Entwicklungen?', CategoryEnum.CREATIVE),
-		new CardData('Von wem lernst du am meisten?', CategoryEnum.CREATIVE),
+		new CardData('Was ist dein bevorzugtes Tool um effizient, kreativ und inspiriert zu sein?', CategoryEnum.WORK),
+		new CardData('Wie informierst du dich über neue Themen und Entwicklungen?', CategoryEnum.WORK),
+		new CardData('Von wem lernst du am meisten?', CategoryEnum.WORK),
 		new CardData(
 			'Welcher Technologie-Trend wird in den nächsten 10 Jahren den grössten Einfluss auf deine Arbeit haben?',
+			CategoryEnum.WORK
+		),
+		new CardData('Was ist der beste geschäftliche Ratschlag den du bekommen hast?', CategoryEnum.WORK),
+		new CardData('Was ist das unkonventionellste was du je gemacht hast?', CategoryEnum.WORK),
+
+		new CardData('Nenne ein Wort welches deine letzte Woche beschreibt?', CategoryEnum.CREATIVE),
+		new CardData('Welches Buch möchtest du schreiben bzw. geschrieben haben?', CategoryEnum.CREATIVE),
+		new CardData('Was hast du in diesem Jahr am meisten gelernt?', CategoryEnum.CREATIVE),
+		new CardData('Wenn du eine Stunde mehr am Tag hättest, was würdest du tun?', CategoryEnum.CREATIVE),
+		new CardData('Was ist dein Lieblingsbuch, Podcast oder Blog und warum?', CategoryEnum.CREATIVE),
+		new CardData('Was siehst du, wenn du über deinen Bildschirm guckst?', CategoryEnum.CREATIVE),
+		new CardData('Wenn du eine Superkraft haben könntest, welche würdest du wählen?', CategoryEnum.CREATIVE),
+		new CardData('In welchem Land (ausser der Schweiz) hast du grosses Glück empfunden?', CategoryEnum.CREATIVE),
+		new CardData(
+			'Neben welcher Persönlichkeit möchtest du auf einem Langstreckenflug sitzen?',
 			CategoryEnum.CREATIVE
 		),
-		new CardData('Was ist der beste geschäftliche Ratschlag den du bekommen hast?', CategoryEnum.CREATIVE),
-		new CardData('Was ist das unkonventionellste was du je gemacht hast?', CategoryEnum.CREATIVE)
+		new CardData(
+			'Der letzte Fehler den du gemacht hast ist der Titel deiner Autobiografie – Wie heisst Sie demnach?',
+			CategoryEnum.CREATIVE
+		)
 	];
 }
