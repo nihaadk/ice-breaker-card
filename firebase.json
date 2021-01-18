@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/ice-breaker-card",
     "ignore": [
       "firebase.json",
       "**/.*",
