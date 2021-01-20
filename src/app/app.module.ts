@@ -12,6 +12,13 @@ import { SplashScreenComponent } from './components/splash-screen/splash-screen.
 import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CardContainerComponent } from './components/card-container/card-container.component';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+export function createTranslateLoader(http: HttpClient) {
+	return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
 	declarations: [
@@ -27,6 +34,15 @@ import { CardContainerComponent } from './components/card-container/card-contain
 		BrowserModule,
 		BrowserAnimationsModule,
 		AppRoutingModule,
+		HttpClientModule,
+		TranslateModule.forRoot({
+			defaultLanguage: 'de',
+			loader: {
+				provide: TranslateLoader,
+				useFactory: createTranslateLoader,
+				deps: [ HttpClient ]
+			}
+		}),
 		ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
 	],
 	providers: [],

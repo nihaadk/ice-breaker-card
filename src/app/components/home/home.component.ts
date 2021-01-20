@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CardData } from 'src/app/model/card-data';
-import { CategoryEnum } from 'src/app/model/category.enum';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
 	selector: 'app-home',
@@ -8,7 +7,13 @@ import { CategoryEnum } from 'src/app/model/category.enum';
 	styleUrls: [ './home.component.scss' ]
 })
 export class HomeComponent implements OnInit {
-	constructor() {}
+	constructor(private translate: TranslateService) {
+		translate.setDefaultLang('de');
+	}
+
+	setLang(lang: string) {
+		this.translate.use(lang);
+	}
 
 	ngOnInit(): void {}
 }

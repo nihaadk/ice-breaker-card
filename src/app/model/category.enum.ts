@@ -1,5 +1,5 @@
 export enum CategoryEnum {
-	CREATIVE = 'kreative',
+	CREATIVE = 'creative',
 	FUN = 'fun',
 	BUSINESS = 'business',
 	WORK = 'work'

@@ -1,7 +1,7 @@
 <div class="front" [ngClass]="category">
-    <div class="header">Kategorie {{ category }}</div>
+    <div class="header">{{ 'CATEGORY' | translate }} {{ 'CATEGORIES.' + category | uppercase | translate }}</div>
     <div class="content">
-        <p>{{ content }}</p>
+        <p>{{ 'QUESTIONS.' + content | translate }}</p>
     </div>
     <div class="footer">
         <img [src]="getImage()" alt="category" class="icon">

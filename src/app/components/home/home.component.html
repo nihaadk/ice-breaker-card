@@ -4,15 +4,18 @@
     </div>
     <div class="flag-container">
         <div class="flag-wrapper">
-            <a [routerLink]="['/card']"><img class="flag" src="assets/flags/en.svg" alt="English" /></a>
+            <a [routerLink]="['/card']" (click)="setLang('en')"><img class="flag" src="assets/flags/en.svg"
+                    alt="English" /></a>
         </div>
 
         <div class="flag-wrapper">
-            <a [routerLink]="['/card']"><img class="flag" src="assets/flags/de.svg" alt="German" /></a>
+            <a [routerLink]="['/card']" (click)="setLang('de')"><img class="flag" src="assets/flags/de.svg"
+                    alt="German" /></a>
         </div>
 
         <div class="flag-wrapper">
-            <a [routerLink]="['/card']"><img class="flag" src="assets/flags/fr.svg" alt="France" /></a>
+            <a [routerLink]="['/card']" (click)="setLang('fr')"><img class="flag" src="assets/flags/fr.svg"
+                    alt="France" /></a>
         </div>
     </div>
 </div>
