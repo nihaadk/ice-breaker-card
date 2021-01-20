@@ -8,10 +8,25 @@ import { CardFrontComponent } from './components/card-front/card-front.component
 import { CardBackComponent } from './components/card-back/card-back.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { SplashScreenComponent } from './components/splash-screen/splash-screen.component';
+import { HomeComponent } from './components/home/home.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-	declarations: [ AppComponent, FlipCardComponent, CardFrontComponent, CardBackComponent ],
-	imports: [ BrowserModule, BrowserAnimationsModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }) ],
+	declarations: [
+		AppComponent,
+		FlipCardComponent,
+		CardFrontComponent,
+		CardBackComponent,
+		SplashScreenComponent,
+		HomeComponent
+	],
+	imports: [
+		BrowserModule,
+		BrowserAnimationsModule,
+		AppRoutingModule,
+		ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+	],
 	providers: [],
 	bootstrap: [ AppComponent ]
 })
