@@ -11,6 +11,7 @@ import { environment } from '../environments/environment';
 import { SplashScreenComponent } from './components/splash-screen/splash-screen.component';
 import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CardContainerComponent } from './components/card-container/card-container.component';
 
 @NgModule({
 	declarations: [
@@ -19,7 +20,8 @@ import { AppRoutingModule } from './app-routing.module';
 		CardFrontComponent,
 		CardBackComponent,
 		SplashScreenComponent,
-		HomeComponent
+		HomeComponent,
+		CardContainerComponent
 	],
 	imports: [
 		BrowserModule,

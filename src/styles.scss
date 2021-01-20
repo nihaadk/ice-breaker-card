@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 
+$flag-icon-css-path: "~flag-icon-css/flags" !default;
+@import "~flag-icon-css/sass/flag-icon";
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #e8eaf6;
